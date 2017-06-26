@@ -5,11 +5,12 @@ A collection of scripts to automatize arch linux + openbox installation.
 ### Basepoint ###
 
 * Install barebones arch linux via arch-amywhere iso
-* openbox
-* lighdm
+* Select WM: openbox
+* Select DM: lighdm
 
 ### How do I get set up? ###
 
-* Utilities
-* Applications
+* Configure Openbox, Lighdm, Tint2...
+* Install Utilities
+* Install Applications
 * Theming and modding
