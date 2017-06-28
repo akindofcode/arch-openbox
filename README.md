@@ -14,3 +14,9 @@ A collection of scripts to automatize arch linux + openbox installation.
 * Install Utilities
 * Install Applications
 * Theming and modding
+
+### Things to do ###
+
+* tint2 nemesis from archlabs
+* menu.xml, rc.xml, etc from archlabs
+* dmenu, rofi, xfce4 applications
