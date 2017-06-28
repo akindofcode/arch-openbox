@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<openbox_menu xmlns="http://openbox.org/"
+ xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://openbox.org/">
+  <menu id="root-menu" label="Applications">
+  <separator label="Archlinux"/>
+    <item label="Run Program" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/actions/system-run.svg"><action name="Execute"><command><![CDATA[gmrun]]></command></action></item>
+  <separator/>
+    <item label="Terminal" icon="/home/chema/.icons/Sardi/scalable/apps/terminal.svg"><action name="Execute"><command><![CDATA[gnome-terminal]]></command></action></item>
+    <item label="Web Browser" icon="/home/chema/.icons/Sardi/scalable/apps/vivaldi.svg"><action name="Execute"><command><![CDATA[vivaldi-stable]]></command></action></item>
+    <item label="File Manager" icon="/home/chema/.icons/Sardi/scalable/apps/file-manager.svg"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="Text Editor" icon="/home/chema/.icons/Sardi/scalable/apps/sublime-text.svg"><action name="Execute"><command><![CDATA[subl]]></command></action></item>
+    <item label="Media Player" icon="/home/chema/.icons/Sardi/scalable/apps/vlc.svg"><action name="Execute"><command><![CDATA[vlc]]></command></action></item>
+  <separator/>
+  <separator label="Categories"/>
+  <menu id="Accessories" icon="/home/chema/.icons/Sardi/scalable/categories/applications-utilities.svg" label="Accessories">
+    <item label="compton" icon="/home/chema/.icons/Sardi/scalable/apps/compton.svg"><action name="Execute"><command><![CDATA[compton --xrender-sync-fence]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/places/system-file-manager.svg"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="nitrogen" icon="/home/chema/.icons/Sardi/scalable/apps/nitrogen.svg"><action name="Execute"><command><![CDATA[nitrogen]]></command></action></item>
+  </menu>
+  <menu id="Development" icon="/home/chema/.icons/Sardi/scalable/categories/applications-development.svg" label="Development">
+    <item label="Qt4 Assistant" icon="/home/chema/.icons/Sardi/scalable/apps/assistant-qt4.svg"><action name="Execute"><command><![CDATA[assistant-qt4]]></command></action></item>
+    <item label="Qt4 Designer" icon="/home/chema/.icons/Sardi/scalable/apps/designer-qt4.svg"><action name="Execute"><command><![CDATA[designer-qt4]]></command></action></item>
+    <item label="Qt4 Linguist" icon="/home/chema/.icons/Sardi/scalable/apps/linguist-qt4.svg"><action name="Execute"><command><![CDATA[linguist-qt4]]></command></action></item>
+    <item label="Qt4 QDbusViewer" icon="/home/chema/.icons/Sardi/scalable/apps/qdbusviewer-qt4.svg"><action name="Execute"><command><![CDATA[qdbusviewer-qt4]]></command></action></item>
+    <item label="Sublime Text" icon="/home/chema/.icons/Sardi/scalable/apps/sublime-text.svg"><action name="Execute"><command><![CDATA[/opt/sublime_text/sublime_text]]></command></action></item>
+  </menu>
+  <menu id="Multimedia" icon="/home/chema/.icons/Sardi/scalable/categories/applications-multimedia.svg" label="Multimedia">
+    <item label="PulseAudio Volume Control" icon="/home/chema/.icons/Sardi/scalable/apps/multimedia-volume-control.svg"><action name="Execute"><command><![CDATA[pavucontrol]]></command></action></item>
+    <item label="Qt V4L2 test Utility" icon="/home/chema/.icons/Sardi/scalable/apps/qv4l2.svg"><action name="Execute"><command><![CDATA[qv4l2]]></command></action></item>
+    <item label="VLC media player" icon="/home/chema/.icons/Sardi/scalable/apps/vlc.svg"><action name="Execute"><command><![CDATA[/usr/bin/vlc --started-from-file]]></command></action></item>
+  </menu>
+  <menu id="Network" icon="/home/chema/.icons/Sardi/scalable/categories/applications-internet.svg" label="Network">
+    <item label="Avahi SSH Server Browser" icon="/home/chema/.icons/Sardi/scalable/status/network-wired.svg"><action name="Execute"><command><![CDATA[/usr/bin/bssh]]></command></action></item>
+    <item label="Avahi VNC Server Browser" icon="/home/chema/.icons/Sardi/scalable/status/network-wired.svg"><action name="Execute"><command><![CDATA[/usr/bin/bvnc]]></command></action></item>
+    <item label="Vivaldi" icon="/home/chema/.icons/Sardi/scalable/apps/vivaldi.svg"><action name="Execute"><command><![CDATA[/usr/bin/vivaldi-stable]]></command></action></item>
+  </menu>
+  <menu id="Settings" icon="/home/chema/.icons/Sardi/scalable/categories/applications-accessories.svg" label="Settings">
+    <item label="Customize Look and Feel" icon="/home/chema/.icons/Sardi/scalable/apps/preferences-desktop-theme.svg"><action name="Execute"><command><![CDATA[lxappearance]]></command></action></item>
+    <item label="Desktop Preferences" icon="/home/chema/.icons/Sardi-Mono-Numix-Colora-Orangina/scalable/places/user-desktop.svg"><action name="Execute"><command><![CDATA[pcmanfm --desktop-pref]]></command></action></item>
+    <item label="Network Connections" icon="/home/chema/.icons/Sardi/scalable/places/preferences-system-network.svg"><action name="Execute"><command><![CDATA[nm-connection-editor]]></command></action></item>
+    <item label="Openbox Configuration Manager" icon="/home/chema/.icons/Sardi/scalable/apps/obconf.svg"><action name="Execute"><command><![CDATA[obconf]]></command></action></item>
+    <item label="Openbox Menu Editor" icon="/home/chema/.icons/Sardi/scalable/apps/obmenu3.svg"><action name="Execute"><command><![CDATA[obmenu3]]></command></action></item>
+    <item label="Preferred Applications" icon="/home/chema/.icons/Sardi/scalable/categories/preferences-desktop.svg"><action name="Execute"><command><![CDATA[libfm-pref-apps]]></command></action></item>
+    <item label="Tint2 Settings" icon="/home/chema/.icons/Sardi/scalable/apps/tint2conf.svg"><action name="Execute"><command><![CDATA[tint2conf]]></command></action></item>
+  </menu>
+  <menu id="System" icon="/home/chema/.icons/Sardi/scalable/categories/applications-system.svg" label="System">
+    <item label="Avahi Zeroconf Browser" icon="/home/chema/.icons/Sardi/scalable/status/network-wired.svg"><action name="Execute"><command><![CDATA[/usr/bin/avahi-discover]]></command></action></item>
+    <item label="File Manager PCManFM" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/places/system-file-manager.svg"><action name="Execute"><command><![CDATA[pcmanfm]]></command></action></item>
+    <item label="Terminal" icon="/home/chema/.icons/Sardi/scalable/apps/utilities-terminal.svg"><action name="Execute"><command><![CDATA[gnome-terminal]]></command></action></item>
+    <item label="Termite" icon="/home/chema/.icons/Sardi/scalable/apps/utilities-terminal.svg"><action name="Execute"><command><![CDATA[termite]]></command></action></item>
+    <item label="Tint2" icon="/home/chema/.icons/Sardi/scalable/apps/tint2.svg"><action name="Execute"><command><![CDATA[tint2]]></command></action></item>
+    <item label="UXTerm" icon="/home/chema/.icons/Sardi/scalable/apps/xterm-color_48x48.svg"><action name="Execute"><command><![CDATA[uxterm]]></command></action></item>
+    <item label="XTerm" icon="/home/chema/.icons/Sardi/scalable/apps/xterm-color_48x48.svg"><action name="Execute"><command><![CDATA[xterm]]></command></action></item>
+  </menu>
+  <separator/>
+  <menu id="Advanced Settings" icon="/home/chema/.icons/Sardi/scalable/categories/applications-engineering.svg" label="Advanced Settings">
+    <item label="Conky RC" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/mimetypes/text-x-generic.svg"><action name="Execute"><command><![CDATA[subl ~/.conkyrc]]></command></action></item>
+    <item label="Tint2 Panel" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/mimetypes/text-x-generic.svg"><action name="Execute"><command><![CDATA[subl ~/.config/tint2/tint2rc]]></command></action></item>
+  <menu id="Obmenu-Generator" icon="/home/chema/.icons/Sardi/scalable/apps/accessories-text-editor.svg" label="Obmenu-Generator">
+    <item label="Menu Schema" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/mimetypes/text-x-generic.svg"><action name="Execute"><command><![CDATA[subl ~/.config/obmenu-generator/schema.pl]]></command></action></item>
+    <item label="Menu Config" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/mimetypes/text-x-generic.svg"><action name="Execute"><command><![CDATA[subl ~/.config/obmenu-generator/config.pl]]></command></action></item>
+  <separator/>
+    <item label="Generate a static menu" icon="/home/chema/.icons/Sardi/scalable/apps/accessories-text-editor.svg"><action name="Execute"><command><![CDATA[obmenu-generator -s -c]]></command></action></item>
+    <item label="Generate a static menu with icons" icon="/home/chema/.icons/Sardi/scalable/apps/accessories-text-editor.svg"><action name="Execute"><command><![CDATA[obmenu-generator -s -i -c]]></command></action></item>
+  <separator/>
+    <item label="Generate a dynamic menu" icon="/home/chema/.icons/Sardi/scalable/apps/accessories-text-editor.svg"><action name="Execute"><command><![CDATA[obmenu-generator -p]]></command></action></item>
+    <item label="Generate a dynamic menu with icons" icon="/home/chema/.icons/Sardi/scalable/apps/accessories-text-editor.svg"><action name="Execute"><command><![CDATA[obmenu-generator -p -i]]></command></action></item>
+  <separator/>
+    <item label="Refresh Icon Set" icon="/home/chema/.icons/Sardi/scalable/actions/view-refresh.svg"><action name="Execute"><command><![CDATA[obmenu-generator -d]]></command></action></item>
+  </menu>
+  <menu id="Openbox" icon="/home/chema/.icons/Sardi/scalable/apps/openbox.svg" label="Openbox">
+    <item label="Openbox Autostart" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/mimetypes/text-x-generic.svg"><action name="Execute"><command><![CDATA[subl ~/.config/openbox/autostart]]></command></action></item>
+    <item label="Openbox RC" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/mimetypes/text-x-generic.svg"><action name="Execute"><command><![CDATA[subl ~/.config/openbox/rc.xml]]></command></action></item>
+    <item label="Openbox Menu" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/mimetypes/text-x-generic.svg"><action name="Execute"><command><![CDATA[subl ~/.config/openbox/menu.xml]]></command></action></item>
+    <item label="Reconfigure Openbox" icon="/home/chema/.icons/Sardi/scalable/apps/openbox.svg"><action name="Execute"><command><![CDATA[openbox --reconfigure]]></command></action></item>
+  </menu>
+  </menu>
+  <separator/>
+    <item label="Lock" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/actions/system-lock-screen.svg"><action name="Execute"><command><![CDATA[xscreensaver-command -lock]]></command></action></item>
+    <item label="Exit" icon="/home/chema/.icons/Sardi-Mono-Numix/scalable/actions/application-exit.svg"><action name="Exit"/></item>
+  </menu>
+</openbox_menu>
