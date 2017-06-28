@@ -20,3 +20,8 @@ A collection of scripts to automatize arch linux + openbox installation.
 * tint2 nemesis from archlabs
 * menu.xml, rc.xml, etc from archlabs
 * dmenu, rofi, xfce4 applications
+* modificar aspecto vlc (qt4)
+
+### Obmenu-generator
+* Schema modificado
+* al-* scripts en usr/bin
