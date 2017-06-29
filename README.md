@@ -31,4 +31,5 @@ A collection of scripts to automatize arch linux + openbox installation.
 * gnome-terminal-transparency ?
 * fix termite closing
 * select and configure music player
-* buttontheme para oblogout y revisar el lock
+* revisar el lock (https://wiki.archlinux.org/index.php/Oblogout)
+* modificar el menu de Help & Resources

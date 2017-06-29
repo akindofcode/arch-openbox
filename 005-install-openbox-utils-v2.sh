@@ -26,6 +26,8 @@ packer -S --noconfirm --noedit obkey
 
 packer -S --noconfirm --noedit oblogout
 
+packer -S --noconfirm --noedit archlabs-oblogout-themes-git
+
 ###############################################################################################
 
 #Modify obmenu-generator config files (config y schema)

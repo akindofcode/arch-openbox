@@ -7,13 +7,31 @@ set -e
 # 
 #======================================================================================
 
+
+# install needed packages
+packer -S --noconfirm --noedit archlabs-common
+packer -S --noconfirm --noedit yad
+
+# copy pipelines to /usr/bin
 sudo cp pipelines/al-places-pipemenu /usr/bin
-
-sudo cp pipelines/al-recent-files-pipemenu /usr/bin
-
 sudo chown root:root /usr/bin/al-places-pipemenu 
 
+sudo cp pipelines/al-recent-files-pipemenu /usr/bin
 sudo chown root:root /usr/bin/al-recent-files-pipemenu
+
+sudo cp pipelines/al-kb-pipemenu /usr/bin
+sudo chown root:root /usr/bin/al-kb-pipemenu
+
+sudo cp pipelines/al-help-pipemenu /usr/bin
+sudo chown root:root /usr/bin/al-help-pipemenu
+
+sudo cp pipelines/al-kb /usr/bin
+sudo chown root:root /usr/bin/al-kb
+
+## When all tested, replace above lines with:
+#  sudo cp pipelines/al-* /usr/bin
+#  sudo chown root:root /usr/bin/al-*
+
 
 echo "################################################################"
 echo "#################   pipelines copied to /usr/bin  ##############"
