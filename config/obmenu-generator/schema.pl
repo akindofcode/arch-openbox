@@ -71,9 +71,9 @@ our $SCHEMA = [
     #{obgenmenu => ['Openbox Settings', 'applications-engineering']},
     #{sep       => undef},
 
-    #{sep => undef},
-    #{pipe => ['al-places-pipemenu',         'Places',       'folder']},
-    #{pipe => ['al-recent-files-pipemenu',   'Recent Files', 'folder-recent']},
+    {sep => undef},
+    {pipe => ['al-places-pipemenu',         'Places',       'folder']},
+    {pipe => ['al-recent-files-pipemenu',   'Recent Files', 'folder-recent']},
 
     ## Custom advanced settings
     {sep       => undef},
