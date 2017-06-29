@@ -9,8 +9,7 @@ set -e
 
 
 # install needed packages
-packer -S --noconfirm --noedit archlabs-common
-packer -S --noconfirm --noedit yad
+packer -S --noconfirm --noedit archlabs-common-git
 
 # copy pipelines to /usr/bin
 sudo cp pipelines/al-places-pipemenu /usr/bin

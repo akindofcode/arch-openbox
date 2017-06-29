@@ -12,7 +12,7 @@ sudo pacman -S --noconfirm --needed screenfetch vim git gnome-terminal pcmanfm t
 
 #sudo pacman -S --noconfirm --needed  gksu
 
-sudo pacman -S --noconfirm --needed dmenu feh rofi htop
+sudo pacman -S --noconfirm --needed dmenu feh rofi htop scrot xfce4-appfinder
 
 # remember to change FORCE WINDOW STYLE to GTK+
 sudo pacman -S --noconfirm --needed vlc qt4
