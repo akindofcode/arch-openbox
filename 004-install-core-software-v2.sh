@@ -8,7 +8,7 @@ set -e
 #======================================================================================
 
 # installation of must-have tools
-sudo pacman -S --noconfirm --needed screenfetch vim git gnome-terminal pcmanfm tint2 vivaldi vivaldi-ffmpeg-codecs nitrogen sublime-text nitrogen comtpon ntfs-3g gmrun
+sudo pacman -S --noconfirm --needed screenfetch vim git gnome-terminal pcmanfm tint2 vivaldi vivaldi-ffmpeg-codecs nitrogen sublime-text nitrogen compton ntfs-3g gmrun
 
 # remember to change FORCE WINDOW STYLE to GTK+
 sudo pacman -S --noconfirm --needed vlc qt4
