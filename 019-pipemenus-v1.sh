@@ -14,3 +14,7 @@ sudo cp pipelines/al-recent-files-pipemenu /usr/bin
 sudo chown root:root /usr/bin/al-places-pipemenu 
 
 sudo chown root:root /usr/bin/al-recent-files-pipemenu
+
+echo "################################################################"
+echo "#################   pipelines copied to /usr/bin  ##############"
+echo "################################################################"

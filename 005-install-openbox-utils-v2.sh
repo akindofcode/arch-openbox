@@ -24,6 +24,8 @@ packer -S --noconfirm --noedit obmenu-generator
 
 packer -S --noconfirm --noedit obkey
 
+packer -S --noconfirm --noedit oblogout
+
 ###############################################################################################
 
 #Modify obmenu-generator config files (config y schema)
