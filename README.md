@@ -6,11 +6,11 @@ A collection of scripts to automatize arch linux + openbox installation.
 
 * Install barebones arch linux via arch-amywhere iso
 * Select WM: openbox
-* Select DM: lighdm
+* Select DM: lightdm
 
 ### How do I get set up? ###
 
-* Configure Openbox, Lighdm, Tint2...
+* Configure Openbox, Lightdm, Tint2...
 * Install Utilities
 * Install Applications
 * Theming and modding
@@ -20,6 +20,7 @@ A collection of scripts to automatize arch linux + openbox installation.
 * tint2 nemesis from archlabs
 * menu.xml, rc.xml, etc from archlabs
 * dmenu, rofi, xfce4 applications
+* test i3-lock
 
 ### Obmenu-generator
 * Schema modificado
