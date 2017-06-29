@@ -27,4 +27,7 @@ A collection of scripts to automatize arch linux + openbox installation.
 
 ### Other things to consider ###
 
+* select and configure terminal
 * gnome-terminal-transparency ?
+* fix termite closing
+* select and configure music player
