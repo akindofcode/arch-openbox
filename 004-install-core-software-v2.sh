@@ -17,7 +17,8 @@ sudo pacman -S --noconfirm --needed vlc qt4
 
 echo "tint2 &" >> ~/.config/openbox/autostart
 echo "nitrogen --restore & #restore the background chosen with nitrogen" >> ~/.config/openbox/autostart
-echo "compton -b -c &" >> ~/.config/openbox/autostart
+echo "compton -b -c --config ~/.config/compton/compton.conf &" >> ~/.config/openbox/autostart
+
 
 
 ###############################################################################################

@@ -17,4 +17,4 @@
 #xfce-mcs-manager &
 tint2 &
 nitrogen --restore & # restore the background chosen with nitrogen
-compton -b -c &
+compton -b -c --config ~/.config/compton/compton.conf &
