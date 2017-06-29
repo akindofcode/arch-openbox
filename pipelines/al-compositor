@@ -77,13 +77,13 @@ forcekill_compton() {
 
 
 if [[ $1 = '--edit' ]]; then # Edit compton settings
-    [[ ! -f $HOME/.config/compton.conf ]] &&
+    [[ ! -f $HOME/.config/compton/compton.conf ]] &&
         cp '/etc/xdg/compton.conf' "$HOME/.config/compton.conf"
 
-    if type geany >/dev/null;then
-        geany "$HOME/.config/compton.conf"
+    if type subl >/dev/null;then
+        subl "$HOME/.config/compton/compton.conf"
     else
-        termite -T 'edit compton.conf' -e nano "$HOME/.config/compton.conf"
+        termite -T 'edit compton.conf' -e nano "$HOME/.config/compton/compton.conf"
     fi
 elif [[ $1 = '--start' ]]; then
     if ! pidof compton > /dev/null; then
@@ -102,7 +102,7 @@ elif [[ $1 = '--restart' ]]; then
         echo "$0 --restart: compton is not running" >&2
     fi
 elif [[ $1 = '--watch' ]]; then
-    while inotifywait -e close_write "$HOME/.config/compton.conf"; do
+    while inotifywait -e close_write "$HOME/.config/compton/compton.conf"; do
         "$0" --restart
     done
 else

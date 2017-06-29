@@ -28,6 +28,13 @@ sudo chown root:root /usr/bin/al-help-pipemenu
 sudo cp pipelines/al-kb /usr/bin
 sudo chown root:root /usr/bin/al-kb
 
+sudo cp pipelines/al-compositor /usr/bin
+sudo chown root:root /usr/bin/al-compositor 
+
+sudo cp pipelines/al-tint* /usr/bin
+sudo chown root:root /usr/bin/al-tint*
+
+
 ## When all tested, replace above lines with:
 #  sudo cp pipelines/al-* /usr/bin
 #  sudo chown root:root /usr/bin/al-*

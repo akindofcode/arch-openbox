@@ -177,7 +177,6 @@
     <!-- 'Left', 'Middle', 'Right' -->
   </dock>
   <keyboard>
-    <chainQuitKey>C-g</chainQuitKey>
     <!-- Keybindings for desktop switching -->
     <chainQuitKey>C-g</chainQuitKey>
     <keybind key="C-S-BackSpace">

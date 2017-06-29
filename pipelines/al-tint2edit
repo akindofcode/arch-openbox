@@ -115,7 +115,7 @@ else
             for f in ${tintsPath[j]};do    # compare with choice from dialog
                 display=$( echo "$f" | awk -F"/" '{print $(NF-1)"/"$NF}')
                 if [[ $display = $name ]];then
-                    geany "$f"
+                subl "$f"
                 fi
             done
         done

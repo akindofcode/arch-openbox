@@ -54,7 +54,7 @@ fi
 
 loadTEditmenu(){
     menuSeparator
-    menuItem "Default tint2rc" "geany $TINT2RC"
+    menuItem "Default tint2rc" "subl $TINT2RC"
     if [ "$(pidof tint2)" ];then
         menuSubmenu "RunningTint2" "Running Tint2s"
         pgrep -a tint2 | while read -r pid cmd; do
@@ -65,7 +65,7 @@ loadTEditmenu(){
                     TINT="$TINT2RC"
                     TINT2="Default tint2rc"
                 fi
-                menuItem "$TINT2" "geany $TINT"
+                menuItem "$TINT2" "subl $TINT"
             fi
         done
         menuSubmenuEnd

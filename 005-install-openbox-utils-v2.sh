@@ -22,6 +22,8 @@ packer -S --noconfirm --noedit obmenu3
 
 packer -S --noconfirm --noedit obmenu-generator
 
+packer -S --noconfirm --noedit yad
+
 packer -S --noconfirm --noedit obkey
 
 packer -S --noconfirm --noedit oblogout
