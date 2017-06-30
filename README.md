@@ -24,6 +24,7 @@ A collection of scripts to automatize arch linux + openbox installation.
 * ./005-openbox-utils-v2.sh
 * ./006-install-applications-v1.sh
 * ./010-install-sardi-icons-v3.sh
+* ./011-install-calibre-v1.sh
 * ./019-pipemenus-v1.sh
 * ./020-personal-configuration-v1.sh
 
@@ -36,8 +37,10 @@ A collection of scripts to automatize arch linux + openbox installation.
 * locker: test i3-lock
 * configure oblogout 
 * edit help menu
-* music player
+* music player (deadbeef y otro?)
 * install zsh
+* install qbittorrent
+* test wine + wineasio + foobar
 
 ### Other things to consider ###
 
