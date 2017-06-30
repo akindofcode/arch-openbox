@@ -37,6 +37,7 @@ A collection of scripts to automatize arch linux + openbox installation.
 * configure oblogout 
 * edit help menu
 * music player
+* install zsh
 
 ### Other things to consider ###
 

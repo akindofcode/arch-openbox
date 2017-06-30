@@ -178,14 +178,14 @@ our $SCHEMA = [
     #     {item      => ['openbox --reconfigure',               'Reconfigure Openbox', 'openbox']},
     #   {end_cat => undef},
     # {end_cat => undef},
+ ############^^^^^^^##########  
 
-    # {sep => undef},
-    # {pipe => ['al-help-pipemenu',              'Help &amp; Resources',              'info']},
-    # {pipe => ['al-kb-pipemenu',                'Display Keybinds',                  'cs-keyboard']},
+    {sep => undef},
+    {pipe => ['al-help-pipemenu',              'Help &amp; Resources',              'info']},
+    {pipe => ['al-kb-pipemenu',                'Display Keybinds',                  'cs-keyboard']},
 
-    # {sep => undef},
- ############^^^^^^^##########   
-
+    {sep => undef},
+ 
     ## The xscreensaver lock command
     {item => ['slimlock',                      'Lock Screen',                       'log-out']},
     ###### {item => ['xscreensaver-command -lock', 'Lock', 'system-lock-screen']},

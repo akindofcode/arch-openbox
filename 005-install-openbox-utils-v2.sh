@@ -50,7 +50,8 @@ packer -S --noconfirm --noedit arc-gtk-theme archlabs-arch-themes-git
 
 sh 010-icons-sardi-v3.sh
 
-packer -S --noconfirm --noedit ttf-font-awesome breeze-snow-cursor-theme
+## packer -S --noconfirm --noedit ttf-font-awesome breeze-snow-cursor-theme
+packer -S --noconfirm --noedit ttf-font-awesome default-snow-cursor-theme
 
 echo "################################################################"
 echo "#############  eye candy software  installed   #################"
