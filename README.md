@@ -25,12 +25,13 @@ A collection of scripts to automatize arch linux + openbox installation.
 * ./006-install-applications-v1.sh
 * ./010-install-sardi-icons-v3.sh
 * ./011-install-calibre-v1.sh
+* ./012-install-music-players.sh
 * ./019-pipemenus-v1.sh
 * ./020-personal-configuration-v1.sh
 
 ### Things to do ###
 
-* test and fix keybinds
+* test and fix keybinds (add music control keys)
 * fix tint2 - icons
 * theme dmenu, rofi
 * theme lightdm

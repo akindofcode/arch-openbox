@@ -8,7 +8,9 @@ set -e
 #======================================================================================
 
 # installation of mpd
-sudo pacman -S --noconfirm --needed mpd ncmpc ncmpcpp
+sudo pacman -S --noconfirm --needed mpd ncmpc 
+
+#sudo pacman -S --noconfirm --needed ncmpcpp
 
 sudo pacman -S --noconfirm --needed deadbeef
 

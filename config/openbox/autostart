@@ -18,3 +18,5 @@
 tint2 &
 nitrogen --restore & # restore the background chosen with nitrogen
 compton -b -c --config ~/.config/compton/compton.conf &
+volumeicon &
+mpd ~/.config/mpd/mpd.conf &
