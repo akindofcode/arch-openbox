@@ -14,9 +14,10 @@ sudo pacman -S --noconfirm --needed deadbeef
 
 # wine wineaiso foobar
 
-# systemctl enable mpc.service
+echo "mpd ~/.config/mpd/mpd.conf &" >> ~/.config/openbox/autostart
 
 
 echo "################################################################"
 echo "##################  music players installed  ###################"
+echo "################### Please restart computer ####################"
 echo "################################################################"
