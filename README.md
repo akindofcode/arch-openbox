@@ -5,8 +5,8 @@ A collection of scripts to automatize arch linux + openbox installation.
 ### Basepoint ###
 
 * Install barebones arch linux via arch-amywhere iso
-* Select WM: openbox
-* Select DM: lightdm
+* WM: openbox
+* DM: lightdm
 
 ### How do I get set up? ###
 
@@ -31,20 +31,19 @@ A collection of scripts to automatize arch linux + openbox installation.
 
 ### Things to do ###
 
-* test and fix keybinds (add music control keys)
-* fix tint2 - icons
+* test and fix keybinds (add music control keys) http://llg.cubic.org/docs/sk2960.html
+* theme tint2 - add icons
 * theme dmenu, rofi
-* theme lightdm
-* locker: test i3-lock
+* theme lightdm ? auto-login ? auto-sudo ?
+* locker: test i3-lock, oblogout
 * configure oblogout 
 * edit help menu
-* music player (deadbeef y otro?)
 * install zsh
 * install qbittorrent
 * test wine + wineasio + foobar
 
 ### Other things to consider ###
 
-* select and configure terminal
+* select and configure terminal 
+* termite ? fix problem with close button
 * gnome-terminal-transparency ?
-* fix termite closing
