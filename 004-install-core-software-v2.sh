@@ -8,7 +8,7 @@ set -e
 #======================================================================================
 
 # installation of must-have tools
-sudo pacman -S --noconfirm --needed screenfetch vim git gnome-terminal pcmanfm tint2 
+sudo pacman -S --noconfirm --needed screenfetch vim git gnome-terminal pcmanfm-gtk3 tint2 
 
 sudo pacman -S --noconfirm --needed vivaldi vivaldi-ffmpeg-codecs nitrogen sublime-text nitrogen compton 
 
