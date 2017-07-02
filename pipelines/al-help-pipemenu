@@ -49,55 +49,55 @@ fi
 menuStart
 menuSeparator 'ArchLabs Linux Online'
 menuSeparator
-menuItem 'ArchLabs Homepage' 'exo-open "https://archlabsblog.wordpress.com/"'
-menuItem 'ArchLabs Reddit' 'exo-open "https://www.reddit.com/r/ArchLabsLinux/"'
-menuItem 'ArchLabs Medium' 'exo-open "https://medium.com/@archlabslinux"'
-menuItem 'ArchLabs Forum' 'exo-open "http://archlabs.prophpbb.com/"'
-menuItem 'ArchLabs Google+' 'exo-open "https://plus.google.com/u/0/communities/111177505820810068511"'
+menuItem 'ArchLabs Homepage' 'vivaldi-stable "https://archlabsblog.wordpress.com/"'
+menuItem 'ArchLabs Reddit' 'vivaldi-stable "https://www.reddit.com/r/ArchLabsLinux/"'
+menuItem 'ArchLabs Medium' 'vivaldi-stable "https://medium.com/@archlabslinux"'
+menuItem 'ArchLabs Forum' 'vivaldi-stable "http://archlabs.prophpbb.com/"'
+menuItem 'ArchLabs Google+' 'vivaldi-stable "https://plus.google.com/u/0/communities/111177505820810068511"'
 
 menuSeparator 'ArchLabs Linux Help'
 menuSeparator
-menuItem 'Forum Basic Help & Support' 'exo-open "http://archlabs.prophpbb.com/forum7.html"'
-menuItem 'Scripts, Tutorials & Tips' 'exo-open "https://bbs.archlinux.org/viewforum.php?id=33"'
+menuItem 'Forum Basic Help & Support' 'vivaldi-stable "http://archlabs.prophpbb.com/forum7.html"'
+menuItem 'Scripts, Tutorials & Tips' 'vivaldi-stable "https://bbs.archlinux.org/viewforum.php?id=33"'
 
 menuSeparator
 
 menuSubmenu 'OpenboxWWW' 'Openbox'
 menuSubmenu 'ObWWW' 'Openbox Website'
-menuItem 'Openbox Homepage' 'exo-open "http://openbox.org/"'
-menuItem 'Openbox Getting Started' 'exo-open "http://openbox.org/wiki/Help:Getting_started"'
-menuItem 'Openbox Documentation' 'exo-open "http://openbox.org/wiki/Help:Contents"'
-menuItem 'Openbox FAQs' 'exo-open "http://openbox.org/wiki/Help:FAQ"'
+menuItem 'Openbox Homepage' 'vivaldi-stable "http://openbox.org/"'
+menuItem 'Openbox Getting Started' 'vivaldi-stable "http://openbox.org/wiki/Help:Getting_started"'
+menuItem 'Openbox Documentation' 'vivaldi-stable "http://openbox.org/wiki/Help:Contents"'
+menuItem 'Openbox FAQs' 'vivaldi-stable "http://openbox.org/wiki/Help:FAQ"'
 menuSubmenuEnd
-menuItem 'Arch Wiki Openbox Guide' 'exo-open "http://wiki.archlinux.org/index.php/Openbox"'
-menuItem 'Debian Wiki Openbox Guide' 'exo-open "https://wiki.debian.org/Openbox"'
-menuItem 'Urukramas Openbox Guide' 'exo-open "https://urukrama.wordpress.com/openbox-faq/"'
-menuItem 'Openbox Reddit' 'exo-open "https://www.reddit.com/r/openbox/"'
+menuItem 'Arch Wiki Openbox Guide' 'vivaldi-stable "http://wiki.archlinux.org/index.php/Openbox"'
+menuItem 'Debian Wiki Openbox Guide' 'vivaldi-stable "https://wiki.debian.org/Openbox"'
+menuItem 'Urukramas Openbox Guide' 'vivaldi-stable "https://urukrama.wordpress.com/openbox-faq/"'
+menuItem 'Openbox Reddit' 'vivaldi-stable "https://www.reddit.com/r/openbox/"'
 menuSubmenuEnd
 
 menuSubmenu 'Tint2WWW' 'Tint2'
-menuItem 'Tint2 Wiki: FAQ' 'exo-open "https://gitlab.com/o9000/tint2/wikis/FAQ"'
-menuItem 'Tint2 Wiki: Configuration' 'exo-open "https://gitlab.com/o9000/tint2/blob/master/doc/tint2.md"'
-menuItem 'Tint2 Forum Thread' 'exo-open "https://forums.bunsenlabs.org/viewtopic.php?id=254"'
+menuItem 'Tint2 Wiki: FAQ' 'vivaldi-stable "https://gitlab.com/o9000/tint2/wikis/FAQ"'
+menuItem 'Tint2 Wiki: Configuration' 'vivaldi-stable "https://gitlab.com/o9000/tint2/blob/master/doc/tint2.md"'
+menuItem 'Tint2 Forum Thread' 'vivaldi-stable "https://forums.bunsenlabs.org/viewtopic.php?id=254"'
 menuItem 'Tint2 Man Pages' 'urxvt -T "Tint2 man page" -e man tint2'
 menuSubmenuEnd
 
 menuSubmenu 'ConkyWWW' 'Conky'
-menuItem 'Conky Wiki' 'exo-open "https://github.com/brndnmtthws/conky/wiki"'
-menuItem 'Conky Archive' 'exo-open "http://crunchbang.org/forums/viewtopic.php?pid=371424"'
-menuItem 'Conky Reddit' 'exo-open "https://www.reddit.com/r/conky/"'
+menuItem 'Conky Wiki' 'vivaldi-stable "https://github.com/brndnmtthws/conky/wiki"'
+menuItem 'Conky Archive' 'vivaldi-stable "http://crunchbang.org/forums/viewtopic.php?pid=371424"'
+menuItem 'Conky Reddit' 'vivaldi-stable "https://www.reddit.com/r/conky/"'
 menuItem 'Conky Man Pages' 'urxvt -T "Conky man page" -e man conky'
 menuSubmenuEnd
 menuSeparator
 
 menuSubmenu 'ThemesWWW' 'Theme Resources'
-menuItem 'Bunsenlabs on DeviantArt' 'exo-open "http://bunsenlabs.deviantart.com/"'
-menuItem 'Eye Candy Linux DeviantArt' 'exo-open "http://eye-candy-linux.deviantart.com/"'
-menuItem 'Box-Look.org' 'exo-open "http://www.box-look.org"'
-menuItem 'Gnome-Look.org' 'exo-open "http://gnome-look.org/"'
-menuItem 'Eye Candy Linux Google+' 'exo-open "https://plus.google.com/u/0/communities/104794997718869399105"'
-menuItem 'UnixPorn' 'exo-open "https://www.reddit.com/r/unixporn/"'
-menuItem 'nixers.net' 'exo-open "http://nixers.net/"'
+menuItem 'Bunsenlabs on DeviantArt' 'vivaldi-stable "http://bunsenlabs.deviantart.com/"'
+menuItem 'Eye Candy Linux DeviantArt' 'vivaldi-stable "http://eye-candy-linux.deviantart.com/"'
+menuItem 'Box-Look.org' 'vivaldi-stable "http://www.box-look.org"'
+menuItem 'Gnome-Look.org' 'vivaldi-stable "http://gnome-look.org/"'
+menuItem 'Eye Candy Linux Google+' 'vivaldi-stable "https://plus.google.com/u/0/communities/104794997718869399105"'
+menuItem 'UnixPorn' 'vivaldi-stable "https://www.reddit.com/r/unixporn/"'
+menuItem 'nixers.net' 'vivaldi-stable "http://nixers.net/"'
 menuSubmenuEnd
 
 menuSeparator 'Man Pages'
@@ -107,8 +107,8 @@ menuItem 'Xrandr' 'urxvt -T "xrandr man page" -e man xrandr'
 menuItem 'Yad' 'urxvt -T "yad man page" -e man yad'
 
 menuSeparator 'Wikis'
-menuItem 'Arch Wiki' 'exo-open "https://wiki.archlinux.org/index.php/Table_of_contents"'
-menuItem 'Termite' 'exo-open "https://wiki.archlinux.org/index.php/termite"'
+menuItem 'Arch Wiki' 'vivaldi-stable "https://wiki.archlinux.org/index.php/Table_of_contents"'
+menuItem 'Termite' 'vivaldi-stable "https://wiki.archlinux.org/index.php/termite"'
 
 menuEnd
 
