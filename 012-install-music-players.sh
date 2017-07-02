@@ -8,7 +8,7 @@ set -e
 #======================================================================================
 
 # installation of mpd
-sudo pacman -S --noconfirm --needed mpd ncmpc 
+sudo pacman -S --noconfirm --needed mpd mpc ncmpcpp
 
 #sudo pacman -S --noconfirm --needed ncmpcpp
 
@@ -16,10 +16,11 @@ sudo pacman -S --noconfirm --needed deadbeef
 
 # wine wineaiso foobar
 
+mpd ~/.config/mpd/mpd.conf &
+
 echo "mpd ~/.config/mpd/mpd.conf &" >> ~/.config/openbox/autostart
 
 
 echo "################################################################"
 echo "##################  music players installed  ###################"
-echo "################### Please restart computer ####################"
 echo "################################################################"
