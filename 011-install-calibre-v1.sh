@@ -15,7 +15,7 @@ sudo pacman -S --noconfirm --needed qt5ct
 packer -S --noconfirm --noedit qt5-styleplugins
 
 # add environment variable
-echo 'QT_QPA_PLATFORMTHEME=qt5ct' | sudo tee --append /etc/environment
+echo 'QT_QPA_PLATFORMTHEME=qt5ct' | sudo tee --append /etc/environment > /dev/null
 
 echo "################################################################"
 echo "#######################  calibre  installed  ###################"

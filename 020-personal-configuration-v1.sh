@@ -14,6 +14,9 @@ cp -R config/* ~/.config/
 # copy personal configs to ~/
 cp -R home/* ~/
 
+#Generate static menu with icons
+obmenu-generator -s -i
+
 echo "################################################################"
 echo "###################   Personal Settings copied  ################"
 echo "################################################################"

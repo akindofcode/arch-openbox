@@ -35,7 +35,7 @@ packer -S --noconfirm --noedit archlabs-oblogout-themes-git
 #Modify obmenu-generator config files (config y schema)
 
 #Generate static menu with icons
-obmenu-generator -s -i
+#obmenu-generator -s -i
 
 # xfce-slimlock
 
