@@ -1,3 +1,4 @@
+<?xml version="1.0"?>
 <openbox_config xmlns="http://openbox.org/3.4/rc" xmlns:xi="http://www.w3.org/2001/XInclude">
   <resistance>
     <strength>10</strength>
@@ -356,12 +357,12 @@
     </keybind>
     <keybind key="W-r">
       <action name="Execute">
-        <command>rofi-theme-selector</command>
+        <command>rofi -modi -show drun</command>
       </action>
     </keybind>
     <keybind key="C-A-r">
       <action name="Execute">
-        <command>rofi-theme-selector</command>
+        <command>rofi-theme-selector -font "Noto Sans 10"</command>
       </action>
     </keybind>
     <keybind key="W-e">
@@ -406,22 +407,22 @@
     </keybind>
     <keybind key="C-space">
       <action name="Execute">
-        <command>rofi -modi ssh,window,drun,run -show drun -fullscreen -font &quot;Noto Sans 10&quot;</command>
+        <command>rofi -modi ssh,window,drun,run -show drun -fullscreen -font "Noto Sans 10"</command>
       </action>
     </keybind>
     <keybind key="C-Shift-space">
       <action name="Execute">
-        <command>rofi -modi ssh,window,drun,run -show drun -font &quot;Noto Sans 10&quot;</command>
+        <command>rofi -modi ssh,window,drun,run -show drun -font "Noto Sans 10"</command>
       </action>
     </keybind>
     <keybind key="W-F11">
       <action name="Execute">
-        <command>rofi -modi ssh,window,drun,run -show drun -fullscreen -font &quot;Noto Sans 10&quot;</command>
+        <command>rofi -modi ssh,window,drun,run -show drun -fullscreen -font "Noto Sans 10"</command>
       </action>
     </keybind>
     <keybind key="W-F12">
       <action name="Execute">
-        <command>rofi -modi ssh,window,drun,run -show drun -font &quot;Noto Sans 10&quot;</command>
+        <command>rofi -modi ssh,window,drun,run -show drun -font "Noto Sans 10"</command>
       </action>
     </keybind>
     <keybind key="W-space">
