@@ -14,8 +14,8 @@ sudo pacman -S --noconfirm --needed calibre
 sudo pacman -S --noconfirm --needed qt5ct
 packer -S --noconfirm --noedit qt5-styleplugins
 
-# add environment variable ¿how to sudo?
-sudo echo "QT_QPA_PLATFORMTHEME=qt5ct" >> /etc/environment
+# add environment variable
+echo 'QT_QPA_PLATFORMTHEME=qt5ct' | sudo tee --append /etc/environment
 
 echo "################################################################"
 echo "#######################  calibre  installed  ###################"
