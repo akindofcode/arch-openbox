@@ -8,25 +8,23 @@ set -e
 #======================================================================================
 
 # installation of must-have tools
-sudo pacman -S --noconfirm --needed screenfetch vim git gnome-terminal pcmanfm-gtk3 tint2 
+sudo pacman -S --noconfirm --needed vim git gnome-terminal pcmanfm-gtk3 tint2 
 
-sudo pacman -S --noconfirm --needed vivaldi vivaldi-ffmpeg-codecs nitrogen sublime-text nitrogen compton 
+sudo pacman -S --noconfirm --needed vivaldi vivaldi-ffmpeg-codecs nitrogen sublime-text compton 
 
 sudo pacman -S --noconfirm --needed dmenu feh rofi htop scrot xfce4-appfinder ntfs-3g gmrun
 
-#sudo pacman -S --noconfirm --needed  gksu
+#sudo pacman -S --noconfirm --needed  gksu screenfetch
 
 # remember to change FORCE WINDOW STYLE to GTK+
 sudo pacman -S --noconfirm --needed vlc qt4 volumeicon
 
-# add start programs to openbox
+# add start programs to openbox ( not needed if we copy the config files later )
 
 echo "tint2 &" >> ~/.config/openbox/autostart
 echo "nitrogen --restore & #restore the background chosen with nitrogen" >> ~/.config/openbox/autostart
 echo "compton -b -c --config ~/.config/compton/compton.conf &" >> ~/.config/openbox/autostart
 echo "volumeicon &" >> ~/.config/openbox/autostart
-
-
 
 ###############################################################################################
 # necessary to change mime associations
