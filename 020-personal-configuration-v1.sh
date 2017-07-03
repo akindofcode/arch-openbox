@@ -8,8 +8,11 @@
 # copy Wallpapers folder to /home
 cp -R Wallpapers ~/
 
-# copy personal configs to /home/.config
+# copy personal configs to ~/.config
 cp -R config/* ~/.config/
+
+# copy personal configs to ~/
+cp -R home/* ~/
 
 echo "################################################################"
 echo "###################   Personal Settings copied  ################"

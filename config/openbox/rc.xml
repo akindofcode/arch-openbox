@@ -406,22 +406,22 @@
     </keybind>
     <keybind key="C-space">
       <action name="Execute">
-        <command>rofi -modi drun,run -show drun -fullscreen -font &quot;Noto Sans 13&quot;</command>
+        <command>rofi -modi ssh,window,drun,run -show drun -fullscreen -font &quot;Noto Sans 10&quot;</command>
       </action>
     </keybind>
     <keybind key="C-Shift-space">
       <action name="Execute">
-        <command>rofi -modi drun,run -show drun -font &quot;Noto Sans 13&quot;</command>
+        <command>rofi -modi ssh,window,drun,run -show drun -font &quot;Noto Sans 10&quot;</command>
       </action>
     </keybind>
     <keybind key="W-F11">
       <action name="Execute">
-        <command>rofi -modi drun,run -show drun -fullscreen -font &quot;Noto Sans 13&quot;</command>
+        <command>rofi -modi ssh,window,drun,run -show drun -fullscreen -font &quot;Noto Sans 10&quot;</command>
       </action>
     </keybind>
     <keybind key="W-F12">
       <action name="Execute">
-        <command>rofi -modi drun,run -show drun -font &quot;Noto Sans 13&quot;</command>
+        <command>rofi -modi ssh,window,drun,run -show drun -font &quot;Noto Sans 10&quot;</command>
       </action>
     </keybind>
     <keybind key="W-space">
