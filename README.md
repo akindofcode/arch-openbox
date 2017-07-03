@@ -12,7 +12,7 @@ A collection of scripts to automatize arch linux + openbox installation.
 
 * git init arch-openbox
 * cd openbox
-* git remote add origin http://akindofcode@bitbucket.org/akindofcode/arch-openbox.git
+* git remote add origin https://akindofcode@bitbucket.org/akindofcode/arch-openbox.git
 * git pull origin master
 
 ### Install scripts ###
@@ -47,3 +47,4 @@ A collection of scripts to automatize arch linux + openbox installation.
 * select and configure terminal 
 * termite ? fix problem with close button
 * gnome-terminal-transparency ?
+* test thunar ?
