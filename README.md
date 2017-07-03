@@ -32,10 +32,12 @@ A collection of scripts to automatize arch linux + openbox installation.
 ### Things to do ###
 
 * test and fix keybinds (add music control keys) http://llg.cubic.org/docs/sk2960.html
-* theme tint2 - add icons internet
-* theme dmenu, rofi
-* theme lightdm ? Execute lightdm-gtk-greeter-settings
-* auto-login ? auto-sudo ?
+* theme vivaldi (arc dark)
+* theme tint2 - add icons internet (add played song)
+* theme dmenu
+* theme rofi - done
+* theme lightdm ? Execute lightdm-gtk-greeter-settings - done
+* auto-login ?
 * locker: test i3-lock, oblogout
 * configure oblogout 
 * edit help menu
