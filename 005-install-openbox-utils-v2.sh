@@ -7,14 +7,18 @@ set -e
 # 
 #======================================================================================
 
+# copy default openbox configuration to ~/.config
 cp -R /etc/xdg/openbox ~/.config
 
 ###############################################################################################
 
 #obconf is gtk2 and not needed if lxappearance-obconf-gtk3 installed ?? 
-#sudo pacman -S --noconfirm --needed obconf
 
-sudo pacman -S --noconfirm --needed lxappearance-gtk3 lxappearance-obconf-gtk3 noto-fonts noto-fonts-emoji
+sudo pacman -S --noconfirm --needed obconf
+
+sudo pacman -S --noconfirm --needed lxappearance-gtk3 lxappearance-obconf-gtk3 lightdm-gtk-greeter-settings
+
+sudo pacman -S --noconfirm --needed noto-fonts noto-fonts-emoji
 
 packer -S --noconfirm --noedit neofetch
 
@@ -43,16 +47,4 @@ packer -S --noconfirm --noedit archlabs-oblogout-themes-git
 
 echo "################################################################"
 echo "###################    openbox utils installed  ################"
-echo "################################################################"
-
-#arc themes and icons
-packer -S --noconfirm --noedit arc-gtk-theme archlabs-arch-themes-git
-
-sh 010-icons-sardi-v3.sh
-
-## packer -S --noconfirm --noedit ttf-font-awesome breeze-snow-cursor-theme
-packer -S --noconfirm --noedit ttf-font-awesome default-snow-cursor-theme
-
-echo "################################################################"
-echo "#############  eye candy software  installed   #################"
 echo "################################################################"

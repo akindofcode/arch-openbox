@@ -23,6 +23,7 @@ A collection of scripts to automatize arch linux + openbox installation.
 * ./004-install-core-software-v2.sh
 * ./005-openbox-utils-v2.sh
 * ./006-install-applications-v1.sh
+* ./007-set-auto-login-v1.sh
 * ./010-install-sardi-icons-v3.sh
 * ./011-install-calibre-v1.sh
 * ./012-install-music-players.sh
@@ -35,14 +36,11 @@ A collection of scripts to automatize arch linux + openbox installation.
 * theme vivaldi (arc dark)
 * theme tint2 - add icons internet (add played song)
 * theme dmenu
-* theme rofi - done
 * theme lightdm ? Execute lightdm-gtk-greeter-settings - done
-* auto-login ?
-* locker: test i3-lock, oblogout
-* configure oblogout 
+* locker: test i3-lock, i3lock-fancy
+* configure oblogout to lock computer
 * edit help menu
 * install zsh
-* install qbittorrent
 * test wine + wineasio + foobar
 
 ### Other things to consider ###
