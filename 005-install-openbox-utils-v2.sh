@@ -34,6 +34,8 @@ packer -S --noconfirm --noedit oblogout
 
 packer -S --noconfirm --noedit archlabs-oblogout-themes-git
 
+packer -S --noconfirm --noedit i3lock-color-git
+
 ###############################################################################################
 
 #Modify obmenu-generator config files (config y schema)

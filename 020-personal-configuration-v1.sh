@@ -17,6 +17,9 @@ cp home/.Xresources ~/
 # generate static menu with icons
 obmenu-generator -s -i
 
+# add lock script to /usr/local/bin
+sudo cp lock.sh /usr/local/bin
+
 echo "################################################################"
 echo "###################   Personal Settings copied  ################"
 echo "################################################################"

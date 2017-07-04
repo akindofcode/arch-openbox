@@ -37,7 +37,7 @@ A collection of scripts to automatize arch linux + openbox installation.
 * theme tint2 - add icons internet (add played song)
 * theme dmenu
 * theme lightdm ? Execute lightdm-gtk-greeter-settings - done
-* locker: test i3-lock, i3lock-fancy
+* locker: test i3-lock, i3lock-color, i3lock-fancy
 * configure oblogout to lock computer
 * edit help menu
 * install zsh
@@ -46,6 +46,8 @@ A collection of scripts to automatize arch linux + openbox installation.
 ### Other things to consider ###
 
 * select and configure terminal 
+* pywal
+* wallpapers
 * termite ? fix problem with close button
 * gnome-terminal-transparency ?
 * test thunar ?
