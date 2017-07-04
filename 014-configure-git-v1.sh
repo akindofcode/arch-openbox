@@ -37,7 +37,7 @@ fi
 #setting up git
 #https://www.atlassian.com/git/tutorials/setting-up-a-repository/git-config
 
-git init
+#git init
 git config --global user.name "akindofcode"
 git config --global user.email "akindofcode@gmail.com"
 sudo git config --system core.editor "vim"
