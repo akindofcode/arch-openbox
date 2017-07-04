@@ -14,6 +14,8 @@ sudo pacman -S --noconfirm --needed vivaldi vivaldi-ffmpeg-codecs nitrogen subli
 
 sudo pacman -S --noconfirm --needed dmenu feh rofi htop scrot xfce4-appfinder ntfs-3g gmrun
 
+packer -S --noconfirm --noedit screenkey-git
+
 #sudo pacman -S --noconfirm --needed  gksu screenfetch
 
 # remember to change FORCE WINDOW STYLE to GTK+
