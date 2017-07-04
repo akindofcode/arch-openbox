@@ -21,7 +21,7 @@ obmenu-generator -s -i
 sudo cp lock.sh /usr/local/bin
 
 # copy gradio stations
-cp -R local/gradio ~/.local
+cp -R local/share/gradio ~/.local/share
 
 echo "################################################################"
 echo "###################   Personal Settings copied  ################"

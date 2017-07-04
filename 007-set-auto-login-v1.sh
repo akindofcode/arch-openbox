@@ -19,8 +19,8 @@ sudo cp /etc/pam.d/lightdm /etc/pam.d/lightdm.old
 echo "auth        sufficient  pam_succeed_if.so user ingroup nopasswdlogin" | sudo tee --append /etc/pam.d/lightdm > /dev/null
 
 sudo cp /etc/lightdm/lightdm.conf /etc/lightdm/lightdm.conf.old
-echo '[Seat:*]' | sudo tee --append /etc/lightdm /lightdm.conf > /dev/null
-echo 'autologin-user= chema' | sudo tee --append /etc/lightdm /lightdm.conf > /dev/null
+echo '[Seat:*]' | sudo tee --append /etc/lightdm/lightdm.conf > /dev/null
+echo 'autologin-user= chema' | sudo tee --append /etc/lightdm/lightdm.conf > /dev/null
 
 # echo 'autologin-session=openbox' | sudo tee --append /etc/lightdm /lightdm.conf > /dev/null
 # if commented, defaults to last selected session
