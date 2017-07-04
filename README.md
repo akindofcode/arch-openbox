@@ -36,9 +36,9 @@ A collection of scripts to automatize arch linux + openbox installation.
 * ./012-install-music-players-v1.sh
 * ./013-install-zsh-v1.sh
 
-* ./014-configure-git-v1.sh
-* ./019-pipemenus-v1.sh
-* ./020-personal-configuration-v1.sh
+* ./020-configure-git-v1.sh
+* ./021-pipemenus-v1.sh
+* ./022-personal-configuration-v1.sh
 
 * ./030-install-intel-microcode-updates-v1.sh
 
