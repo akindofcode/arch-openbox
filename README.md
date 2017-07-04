@@ -11,6 +11,12 @@ A collection of scripts to automatize arch linux + openbox installation.
 ### How do I get set up? ###
 
 * git init arch-openbox
+* git config --global user.name "akindofcode"
+* git config --global user.email "akindofcode@gmail.com"
+* sudo git config --system core.editor "vim"
+* git config --global credential.helper cache
+* git config --global credential.helper 'cache --timeout=18000'
+* git config --global push.default simple
 * cd openbox
 * git remote add origin https://akindofcode@bitbucket.org/akindofcode/arch-openbox.git
 * git pull origin master
@@ -24,9 +30,12 @@ A collection of scripts to automatize arch linux + openbox installation.
 * ./005-install-core-software-v2.sh
 * ./006-install-applications-v1.sh
 * ./007-set-auto-login-v1.sh
+* ./009-install-arc-theme-v1.sh
 * ./010-install-sardi-icons-v3.sh
 * ./011-install-calibre-v1.sh
 * ./012-install-music-players.sh
+* ./013-install-zsh-v1.sh
+* ./014-configure-git-v1.sh
 * ./019-pipemenus-v1.sh
 * ./020-personal-configuration-v1.sh
 
