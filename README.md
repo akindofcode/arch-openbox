@@ -57,11 +57,12 @@ A collection of scripts to automatize arch linux + openbox installation.
 * theme rofi - https://github.com/ARCHLabs/Archlabs-Rofi-Themes
 * theme dmenu
 * edit help menu
-* test wine + wineasio + foobar
+* lock script colors - arc theme
 
 ### Other things to consider ###
 
 * select and configure terminal 
+* test wine + wineasio + foobar
 * pywal
 * add more wallpapers
 * termite ? fix problem with close button
