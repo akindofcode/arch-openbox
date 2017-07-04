@@ -20,6 +20,9 @@ obmenu-generator -s -i
 # add lock script to /usr/local/bin
 sudo cp lock.sh /usr/local/bin
 
+# copy gradio stations
+cp -R local/gradio ~/.local
+
 echo "################################################################"
 echo "###################   Personal Settings copied  ################"
 echo "################################################################"
