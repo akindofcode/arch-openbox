@@ -33,11 +33,15 @@ A collection of scripts to automatize arch linux + openbox installation.
 * ./009-install-arc-theme-v1.sh
 * ./010-install-sardi-icons-v3.sh
 * ./011-install-calibre-v1.sh
-* ./012-install-music-players.sh
+* ./012-install-music-players-v1.sh
 * ./013-install-zsh-v1.sh
+
 * ./014-configure-git-v1.sh
 * ./019-pipemenus-v1.sh
 * ./020-personal-configuration-v1.sh
+
+* ./030-install-intel-microcode-updates-v1.sh
+
 
 ### Things to do ###
 
