@@ -357,7 +357,7 @@
     </keybind>
     <keybind key="W-r">
       <action name="Execute">
-        <command>rofi -modi -show drun</command>
+        <command>rofi -modi ssh,window,drun,run -show drun</command>
       </action>
     </keybind>
     <keybind key="C-A-r">
