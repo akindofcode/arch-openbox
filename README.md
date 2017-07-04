@@ -20,8 +20,8 @@ A collection of scripts to automatize arch linux + openbox installation.
 * ./001-install-fastest-mirrors-and-update-v1.sh
 * ./002-install-packer-for-aur-make-build-v1.sh
 * ./003-add-needed-repos-v1.sh
-* ./004-install-core-software-v2.sh
-* ./005-openbox-utils-v2.sh
+* ./004-openbox-utils-v2.sh
+* ./005-install-core-software-v2.sh
 * ./006-install-applications-v1.sh
 * ./007-set-auto-login-v1.sh
 * ./010-install-sardi-icons-v3.sh
