@@ -43,25 +43,27 @@ A collection of scripts to automatize arch linux + openbox installation.
 
 * ./030-install-intel-microcode-updates-v1.sh
 
+### Manual steps ###
+
+* silent boot (https://wiki.archlinux.org/index.php/Silent_boot#Kernel_parameters)
+* Vivaldi Arc Theme
+* sudo lightdm-gtk-greeter-settings
+* configure zsh
+
 ### Things to do ###
 
 * test and fix keybinds (add music control keys) http://llg.cubic.org/docs/sk2960.html
-* theme vivaldi (arc dark)
 * theme tint2 - add icons internet (add played song)
 * theme rofi - https://github.com/ARCHLabs/Archlabs-Rofi-Themes
 * theme dmenu
-* theme lightdm ? Execute lightdm-gtk-greeter-settings - done
-* locker: test i3-lock, i3lock-color, i3lock-fancy
-* configure oblogout to lock computer
 * edit help menu
-* install zsh + configure
 * test wine + wineasio + foobar
 
 ### Other things to consider ###
 
 * select and configure terminal 
 * pywal
-* wallpapers
+* add more wallpapers
 * termite ? fix problem with close button
 * gnome-terminal-transparency ?
 * test thunar ?
