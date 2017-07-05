@@ -77,3 +77,9 @@ Arc Crimson Dark, Noto Sans Regular 10
 * xf86-video-nouveau ?
 * lm_sensors lsb-release
 * network-manager-applet
+* xrandr, arandr, lxrandr
+xrandr (to see available outputs)
+xrandr --output VGA1 --auto --output VGA2 --off (first screen only)
+xrandr --output VGA1 --off --output VGA2 --auto (second screen only)
+xrandr --output VGA1 --auto --left-of VGA2 --output VGA2 --auto --primary (extended)
+xrandr --output VGA1 --auto --output VGA2 --auto --same-as VGA1 (mirror)
