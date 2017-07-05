@@ -1,4 +1,4 @@
-# README #
+# Personalization README #
 
 Scripts to personalize archlinux + openbox installation.
 
@@ -12,10 +12,11 @@ Scripts to personalize archlinux + openbox installation.
 ### Manual steps ###
 
 * Change Vivaldi Arc Theme
-Colors: #2f343f, #d3dae3, #5294e2, #383c4a, [ ], [x], 2px
+	* Colors: #2f343f, #d3dae3, #5294e2, #383c4a, [ ], [x], 2px
 * sudo lightdm-gtk-greeter-settings
-Arc Crimson Dark, Noto Sans Regular 10
+	* Arc Crimson Dark, Noto Sans Regular 10
 
 ### Configure zsh ###
 * configure zsh
-* plugins: git colored-man-pages themes
+* modify .zshrc:
+	* plugins: git colored-man-pages themes

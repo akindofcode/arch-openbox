@@ -1,4 +1,4 @@
-# README #
+# Installation README #
 
 Scripts to automatize archlinux + openbox installation.
 
