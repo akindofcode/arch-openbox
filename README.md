@@ -46,8 +46,13 @@ A collection of scripts to automatize arch linux + openbox installation.
 ### Manual steps ###
 
 * silent boot (https://wiki.archlinux.org/index.php/Silent_boot#Kernel_parameters)
+Edit /etc/default/grub and append your kernel options to the GRUB_CMDLINE_LINUX_DEFAULT line:
+ 	quiet loglevel=3 rd.systemd.show_status=auto rd.udev.log-priority=3
+Execute: sudo grub-mkconfig -o /boot/grub/grub.cfg
 * Vivaldi Arc Theme
+Colors: #2f343f, #d3dae3, #5294e2, #383c4a, [ ], [x], 2px
 * sudo lightdm-gtk-greeter-settings
+Arc Crimson Dark, Noto Sans Regular 10
 * configure zsh
 
 ### Things to do ###
