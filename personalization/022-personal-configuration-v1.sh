@@ -11,8 +11,8 @@ cp -R Wallpapers ~/
 # copy personal configs to ~/.config
 cp -R config/* ~/.config/
 
-# copy personal configs to ~/
-cp home/.Xresources ~/
+# copy personal configs to ~/ (.Xresources, .zshrc)
+cp home/* ~/
 
 # generate static menu with icons
 obmenu-generator -s -i
@@ -22,6 +22,7 @@ sudo cp lock.sh /usr/local/bin
 
 # copy gradio stations
 cp -R local/share/gradio ~/.local/share
+
 
 echo "################################################################"
 echo "###################   Personal Settings copied  ################"
