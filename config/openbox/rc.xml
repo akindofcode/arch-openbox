@@ -372,7 +372,8 @@
     </keybind>
     <keybind key="W-m">
       <action name="Execute">
-        <command>deadbeef</command>
+        <!--<command>deadbeef</command>-->
+        <command>termite -e ncmpcpp</command>
       </action>
     </keybind>
     <keybind key="W-h">
