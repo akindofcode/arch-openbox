@@ -53,7 +53,6 @@ Execute: sudo grub-mkconfig -o /boot/grub/grub.cfg
 Colors: #2f343f, #d3dae3, #5294e2, #383c4a, [ ], [x], 2px
 * sudo lightdm-gtk-greeter-settings
 Arc Crimson Dark, Noto Sans Regular 10
-* configure zsh
 
 ### Things to do ###
 
@@ -64,6 +63,11 @@ Arc Crimson Dark, Noto Sans Regular 10
 * edit help menu
 * lock script colors - arc theme
 
+### Configure zsh ###
+* configure zsh
+* plugins: git colored-man-pages themes
+
+
 ### Other things to consider ###
 
 * select and configure terminal 
@@ -73,7 +77,7 @@ Arc Crimson Dark, Noto Sans Regular 10
 * termite ? fix problem with close button
 * gnome-terminal-transparency ?
 * test thunar ?
-* scritp to update and clean pacman cache ? or pacman manager?
+* scritp to update and clean pacman cache ? or pacman manager? -> packer -Syu
 * xf86-video-nouveau ?
 * lm_sensors lsb-release
 * network-manager-applet
