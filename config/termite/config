@@ -35,7 +35,8 @@ filter_unmatched_urls = true
 
 [colors]
 # https://critical.ch/xterm/
-foreground      = ghost
+#foreground      = ghost
+foreground      = #f8f8ff
 foreground_bold = #c5c8c6
 cursor          = #c5c8c6
 #background      = #1d1f21

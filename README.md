@@ -73,3 +73,7 @@ Arc Crimson Dark, Noto Sans Regular 10
 * termite ? fix problem with close button
 * gnome-terminal-transparency ?
 * test thunar ?
+* scritp to update and clean pacman cache ? or pacman manager?
+* xf86-video-nouveau ?
+* lm_sensors lsb-release
+* network-manager-applet
