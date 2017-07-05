@@ -1,6 +1,6 @@
 # README #
 
-A collection of scripts to automatize arch linux + openbox installation.
+A collection of scripts to automatize archlinux + openbox installation.
 
 ### Basepoint ###
 
@@ -20,28 +20,6 @@ A collection of scripts to automatize arch linux + openbox installation.
 * cd openbox
 * git remote add origin https://akindofcode@bitbucket.org/akindofcode/arch-openbox.git
 * git pull origin master
-
-### Install scripts ###
-
-* ./001-install-fastest-mirrors-and-update-v1.sh
-* ./002-install-packer-for-aur-make-build-v1.sh
-* ./003-add-needed-repos-v1.sh
-* ./004-openbox-utils-v2.sh
-* ./005-install-core-software-v2.sh
-* ./006-install-applications-v1.sh
-* ./007-set-auto-login-v1.sh
-* ./009-install-arc-theme-v1.sh
-* ./010-install-sardi-icons-v3.sh
-* ./011-install-calibre-v1.sh
-* ./012-install-music-players-v1.sh
-* ./013-install-zsh-v1.sh
-
-* ./020-configure-git-v1.sh
-* ./021-pipemenus-v1.sh
-* ./022-personal-configuration-v1.sh
-* ./023-arc-theme-for-vivaldi-v1.sh
-
-* ./030-install-intel-microcode-updates-v1.sh
 
 ### Manual steps ###
 
@@ -66,7 +44,6 @@ Arc Crimson Dark, Noto Sans Regular 10
 ### Configure zsh ###
 * configure zsh
 * plugins: git colored-man-pages themes
-
 
 ### Other things to consider ###
 
