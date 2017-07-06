@@ -21,16 +21,16 @@ A collection of scripts to automatize archlinux + openbox installation.
 	* cd arch-openbox
 	* git remote add origin https://akindofcode@bitbucket.org/akindofcode/arch-openbox.git
 	* git pull origin master
-* execute installation scripts
-* execute personalization scripts
-* execute optimization scripts
-* execute update-all-v1.sh
+* execute 001-installation-v1.sh
+* execute 002-personalization-v1.sh
+* execute 003-optimization-v1.sh
+* execute 004-update-all-v1.sh
 
 ### Things to do ###
 
 * test and fix keybinds (add music control keys) http://llg.cubic.org/docs/sk2960.html (on real hardware)
 * mpc: add played song to tint2 or conky
-* theme rofi - hxttps://github.com/ARCHLabs/Archlabs-Rofi-Themes
+* theme rofi - https://github.com/ARCHLabs/Archlabs-Rofi-Themes
 * theme dmenu ? 
 * xrandr, arandr, lxrandr (add keybinds)
 	* xrandr (to see available outputs)
@@ -48,6 +48,7 @@ A collection of scripts to automatize archlinux + openbox installation.
 * xf86-video-nouveau ?
 * lm_sensors lsb-release
 * lock.sh script colors - arc theme
+* configure oh-my-zsh (https://github.com/robbyrussell/oh-my-zsh)
 
 ### Applications to test ###
 
