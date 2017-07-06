@@ -12,7 +12,7 @@ cp -R Wallpapers ~/
 cp -R config/* ~/.config/
 
 # copy personal configs to ~/ (.Xresources, .zshrc)
-cp home/* ~/
+cp home/.* ~/
 
 # generate static menu with icons
 obmenu-generator -s -i

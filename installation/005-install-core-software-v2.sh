@@ -12,7 +12,7 @@ sudo pacman -S --noconfirm --needed vim git gnome-terminal pcmanfm-gtk3 tint2 qb
 
 sudo pacman -S --noconfirm --needed vivaldi vivaldi-ffmpeg-codecs nitrogen sublime-text compton 
 
-sudo pacman -S --noconfirm --needed dmenu feh rofi htop scrot xfce4-appfinder ntfs-3g gmrun
+sudo pacman -S --noconfirm --needed dmenu feh rofi htop scrot xfce4-appfinder ntfs-3g gmrun numlockx
 
 packer -S --noconfirm --noedit screenkey-git
 
@@ -27,6 +27,7 @@ echo "tint2 &" >> ~/.config/openbox/autostart
 echo "nitrogen --restore & #restore the background chosen with nitrogen" >> ~/.config/openbox/autostart
 echo "compton -b -c --config ~/.config/compton/compton.conf &" >> ~/.config/openbox/autostart
 echo "volumeicon &" >> ~/.config/openbox/autostart
+echo "numlockx &" >> ~/.config/openbox/autostart
 
 ###############################################################################################
 # necessary to change mime associations

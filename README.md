@@ -24,10 +24,11 @@ A collection of scripts to automatize archlinux + openbox installation.
 * execute installation scripts
 * execute personalization scripts
 * execute optimization scripts
+* execute update-all-v1.sh
 
 ### Things to do ###
 
-* scripts to install, personalize and optimize (all-in-one)
+* root scripts to install, personalize and optimize (all-in-one)
 * test and fix keybinds (add music control keys) http://llg.cubic.org/docs/sk2960.html
 * theme tint2 - add icons internet (add played song)
 * theme rofi - hxttps://github.com/ARCHLabs/Archlabs-Rofi-Themes

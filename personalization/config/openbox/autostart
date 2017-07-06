@@ -15,8 +15,15 @@
 # If you want to use XFCE config tools...
 #
 #xfce-mcs-manager &
-tint2 &
-nitrogen --restore & # restore the background chosen with nitrogen
+
 compton -b -c --config ~/.config/compton/compton.conf &
-volumeicon &
-mpd ~/.config/mpd/mpd.conf &
+
+tint2 &
+
+nitrogen --restore & # restore the background chosen with nitrogen
+
+numlockx & 
+
+(sleep 2; volumeicon) &
+
+(sleep 3; mpd ~/.config/mpd/mpd.conf) &
