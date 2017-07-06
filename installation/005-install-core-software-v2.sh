@@ -12,14 +12,16 @@ sudo pacman -S --noconfirm --needed vim git gnome-terminal pcmanfm-gtk3 tint2 qb
 
 sudo pacman -S --noconfirm --needed vivaldi vivaldi-ffmpeg-codecs nitrogen sublime-text compton 
 
-sudo pacman -S --noconfirm --needed dmenu feh rofi htop scrot xfce4-appfinder ntfs-3g gmrun numlockx
+sudo pacman -S --noconfirm --needed dmenu feh rofi htop scrot xfce4-appfinder ntfs-3g gmrun 
+
+sudo pacman -S --noconfirm --needed numlockx xfce4-notifyd volumeicon
 
 packer -S --noconfirm --noedit screenkey-git
 
 #sudo pacman -S --noconfirm --needed  gksu screenfetch
 
-# remember to change FORCE WINDOW STYLE to GTK+
-sudo pacman -S --noconfirm --needed vlc qt4 volumeicon
+# remember to change FORCE WINDOW STYLE in VLC to GTK+
+sudo pacman -S --noconfirm --needed vlc qt4 
 
 # add start programs to openbox ( not needed if we copy the config files later )
 

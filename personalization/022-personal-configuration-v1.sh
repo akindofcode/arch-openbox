@@ -14,8 +14,8 @@ cp -R config/* ~/.config/
 # copy personal configs to ~/ (.Xresources, .zshrc)
 cp home/.* ~/
 
-# generate static menu with icons
-obmenu-generator -s -i
+# generate static menu without icons
+obmenu-generator -s
 
 # add lock script to /usr/local/bin
 sudo cp lock.sh /usr/local/bin

@@ -26,4 +26,6 @@ numlockx &
 
 (sleep 2; volumeicon) &
 
+(sleep 2; nm-applet) &
+
 (sleep 3; mpd ~/.config/mpd/mpd.conf) &
