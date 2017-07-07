@@ -7,12 +7,14 @@ set -e
 # 
 #======================================================================================
 
-#arc themes and icons
-packer -S --noconfirm --noedit arc-gtk-theme archlabs-arch-themes-git
+sudo pacman -S --noconfirm --needed noto-fonts noto-fonts-emoji
 
-## packer -S --noconfirm --noedit ttf-font-awesome breeze-snow-cursor-theme
-packer -S --noconfirm --noedit default-snow-cursor-theme
+packer -S --noconfirm --noedit ttf-font-awesome 
+
+# siji-git
+
+# Terminus
 
 echo "################################################################"
-echo "###################  arc themes installed  #####################"
+echo "#####################  fonts installed  ########################"
 echo "################################################################"

@@ -18,8 +18,6 @@ sudo pacman -S --noconfirm --needed obconf
 
 sudo pacman -S --noconfirm --needed lxappearance-gtk3 lxappearance-obconf-gtk3 lightdm-gtk-greeter-settings
 
-sudo pacman -S --noconfirm --needed noto-fonts noto-fonts-emoji
-
 packer -S --noconfirm --noedit neofetch
 
 packer -S --noconfirm --noedit obmenu3

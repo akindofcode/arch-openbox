@@ -13,7 +13,10 @@ sudo pacman -S --noconfirm --needed vim git gnome-terminal pcmanfm-gtk3 tint2 qb
 sudo pacman -S --noconfirm --needed vivaldi vivaldi-ffmpeg-codecs nitrogen sublime-text compton 
 
 sudo pacman -S --noconfirm --needed dmenu feh rofi htop scrot xfce4-appfinder ntfs-3g gmrun 
+
 sudo pacman -S --noconfirm --needed numlockx xfce4-notifyd volumeicon fish
+
+packer -S --noconfirm --noedit polybar-git
 
 packer -S --noconfirm --noedit screenkey-git
 
