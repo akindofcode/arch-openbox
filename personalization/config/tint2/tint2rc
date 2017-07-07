@@ -91,7 +91,7 @@ panel_padding = 0 0 0
 panel_background_id = 1
 wm_menu = 1
 panel_dock = 0
-panel_position = top center horizontal
+panel_position = bottom center horizontal
 panel_layer = bottom
 panel_monitor = all
 primary_monitor_first = 0
@@ -222,5 +222,5 @@ tooltip_hide_timeout = 0
 tooltip_padding = 2 2
 tooltip_background_id = 7
 tooltip_font_color = #ffffff 100
-tooltip_font = Noto Sans 11.0
+tooltip_font = Noto Sans 9.0
 

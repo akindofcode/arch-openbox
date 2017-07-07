@@ -39,7 +39,8 @@ A collection of scripts to automatize archlinux + openbox installation.
 
 ### Other things to consider ###
 
-* mpc: add played song to tint2 or conky
+* fish shell (desactivar zsh y añadir exec fish to .bashrc)
+* mpc: add played song to tint2 or conky (or polybar)
 * theme rofi - https://github.com/ARCHLabs/Archlabs-Rofi-Themes
 * theme dmenu ? 
 * add more wallpapers
@@ -52,6 +53,8 @@ A collection of scripts to automatize archlinux + openbox installation.
 
 ### Applications to test ###
 
+* fish shell
+* cli-visualizer
 * Thunar
 * wine + wineasio + foobar
 * Polybar (https://github.com/jaagr/polybar)
