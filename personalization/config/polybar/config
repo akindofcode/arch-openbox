@@ -27,7 +27,7 @@ offset-y = 0
 radius = 0
 fixed-center = true
 
-bottom = true
+bottom = false
 
 background = ${colors.background}
 foreground = ${colors.foreground}
