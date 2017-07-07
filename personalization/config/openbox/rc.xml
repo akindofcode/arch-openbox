@@ -41,7 +41,8 @@
   </placement>
   <theme>
     <name>Arc-Numix-Dark</name>
-    <titleLayout>NLIMC</titleLayout>
+    <!--<titleLayout>NLIMC</titleLayout>-->
+    <titleLayout>IMLC</titleLayout>
     <!--
       available characters are NDSLIMC, each can occur at most once.
       N: window icon
