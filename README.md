@@ -11,6 +11,7 @@ A collection of scripts to automatize archlinux + openbox installation.
 ### How do I get set up? ###
 
 * import this repository
+	git clone https://github.com/akindofcode/arch-openbox
 * execute 001-installation-v1.sh
 * execute 002-personalization-v1.sh
 * execute 003-optimization-v1.sh
