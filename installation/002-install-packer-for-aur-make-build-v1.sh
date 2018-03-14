@@ -27,7 +27,7 @@ command="packer"
 if pacman -Qi $package &> /dev/null; then
 
 	echo "################################################################"
-	echo "################## "$package" is already installed"
+	echo "####          "$package" is already installed               ####"
 	echo "################################################################"
 
 else
@@ -52,13 +52,13 @@ else
 	if pacman -Qi $package &> /dev/null; then
 	
 	echo "################################################################"
-	echo "#########  "$package" has been installed"
+	echo "###           "$package" has been installed                 ####"
 	echo "################################################################"
 
 	else
 
 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-	echo "!!!!!!!!!  "$package" has NOT been installed"
+	echo "!!!!!!!!!  "$package" has NOT been installed                !!!!"
 	echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 
 	fi
