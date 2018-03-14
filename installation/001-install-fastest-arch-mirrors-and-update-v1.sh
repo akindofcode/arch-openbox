@@ -21,7 +21,7 @@ echo "################################################################"
 sudo reflector -l 100 -f 50 --sort rate --threads 5 --verbose --save /tmp/mirrorlist.new && rankmirrors -n 0 /tmp/mirrorlist.new > /tmp/mirrorlist && sudo cp /tmp/mirrorlist /etc/pacman.d
 
 echo "################################################################"
-echo "####                adding fastest servers 			 	   ###"
+echo "####                adding fastest servers                   ###"
 echo "################################################################"
 
 cat /etc/pacman.d/mirrorlist
