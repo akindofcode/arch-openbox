@@ -12,10 +12,10 @@ A collection of scripts to automatize archlinux + openbox installation.
 
 * import this repository
 	git clone https://github.com/akindofcode/arch-openbox
-* execute 001-installation-v1.sh
-* execute 002-personalization-v1.sh
-* execute 003-optimization-v1.sh
-* execute 004-update-all-v1.sh
+* execute 001-installation.sh
+* execute 002-personalization.sh
+* execute 003-optimization.sh
+* execute 004-update-all.sh
 
 ### Things to do after installation on real hardware###
 
@@ -30,7 +30,7 @@ A collection of scripts to automatize archlinux + openbox installation.
 
 ### Other things to consider ###
 
-* fish shell (desactivar zsh y añadir exec fish to .bashrc)
+* fish shell (desactivar zsh y aÃ±adir exec fish to .bashrc)
 * mpc: add played song to tint2 or conky (or polybar)
 * theme rofi - https://github.com/ARCHLabs/Archlabs-Rofi-Themes
 * theme dmenu ? 
