@@ -4,7 +4,7 @@ A collection of scripts to automatize archlinux + openbox installation.
 
 ### Basepoint ###
 
-* Install barebones archlinux via arch-amywhere iso
+* Install barebones archlinux via arch-anywhere or feliz iso
 * WM: openbox
 * DM: lightdm
 
@@ -39,7 +39,7 @@ A collection of scripts to automatize archlinux + openbox installation.
 
 ### Other things to consider ###
 
-* fish shell (desactivar zsh y aÃ±adir exec fish to .bashrc)
+* fish shell (desactivar zsh y añadir exec fish to .bashrc)
 * mpc: add played song to tint2 or conky (or polybar)
 * theme rofi - https://github.com/ARCHLabs/Archlabs-Rofi-Themes
 * theme dmenu ? 
