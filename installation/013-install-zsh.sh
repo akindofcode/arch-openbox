@@ -11,9 +11,7 @@ packer -S --noconfirm --noedit zsh-completions
 
 # Installation of OH-MY-ZSH from the github (best way to install!!)
 
-echo "################################################################"
-echo "downloading Oh-My-Zsh from github"
-echo "################################################################"
+echo "### downloading Oh-My-Zsh from github ###"
 
 wget https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh -O - | sh
 
@@ -30,9 +28,7 @@ packer -S --noconfirm --noedit zsh-syntax-highlighting
 packer -S --noconfirm --noedit command-not-found
 
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 echo "sudo chsh username -s /bin/zsh"
-echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 echo "!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!"
 echo "Log off or reboot to see the change in your terminal".
 echo "--------------------------------------------------------------"

@@ -26,7 +26,4 @@ mpd ~/.config/mpd/mpd.conf &
 # add to autostart
 echo "mpd ~/.config/mpd/mpd.conf &" >> ~/.config/openbox/autostart
 
-
-echo "################################################################"
-echo "##################  music players installed  ###################"
-echo "################################################################"
+echo "###  music players installed  ###"
