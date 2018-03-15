@@ -11,6 +11,12 @@ set -e
 
 packer -S --noconfirm --noedit gradio
 
+sudo pacman -S --noconfirm --needed qbittorrent
+sudo pacman -S --noconfirm --needed vivaldi vivaldi-ffmpeg-codecs nitrogen sublime-text compton 
+
+# remember to change FORCE WINDOW STYLE in VLC to GTK+
+sudo pacman -S --noconfirm --needed vlc qt4 
+
 #sudo pacman -S --noconfirm --needed archey3 baobab bleachbit catfish clementine conky curl
 #sudo pacman -S --noconfirm --needed darktable dconf-editor
 #sudo pacman -S --noconfirm --needed dmidecode 
@@ -31,6 +37,4 @@ packer -S --noconfirm --noedit gradio
 #sudo systemctl enable vnstat
 #sudo systemctl start vnstat
 
-echo "################################################################"
-echo "###################    applications installed   ################"
-echo "################################################################"
+echo "### applications installed ###"

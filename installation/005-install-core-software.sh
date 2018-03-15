@@ -8,9 +8,7 @@ set -e
 #======================================================================================
 
 # installation of must-have tools
-sudo pacman -S --noconfirm --needed vim git gnome-terminal pcmanfm-gtk3 tint2 qbittorrent
-
-sudo pacman -S --noconfirm --needed vivaldi vivaldi-ffmpeg-codecs nitrogen sublime-text compton 
+sudo pacman -S --noconfirm --needed vim gnome-terminal pcmanfm-gtk3 tint2
 
 sudo pacman -S --noconfirm --needed dmenu feh rofi htop scrot xfce4-appfinder ntfs-3g gmrun 
 
@@ -19,11 +17,6 @@ sudo pacman -S --noconfirm --needed numlockx xfce4-notifyd volumeicon fish
 packer -S --noconfirm --noedit polybar-git
 
 packer -S --noconfirm --noedit screenkey-git
-
-#sudo pacman -S --noconfirm --needed  gksu screenfetch
-
-# remember to change FORCE WINDOW STYLE in VLC to GTK+
-sudo pacman -S --noconfirm --needed vlc qt4 
 
 # add start programs to openbox ( not needed if we copy the config files later )
 
@@ -44,7 +37,4 @@ sudo pacman -S --noconfirm --needed unace unrar zip unzip sharutils uudeview arj
 
 ###############################################################################################
 
-
-echo "################################################################"
-echo "###################    core software installed  ################"
-echo "################################################################"
+echo "### core software installed ###"
