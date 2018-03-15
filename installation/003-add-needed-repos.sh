@@ -9,7 +9,7 @@
 
 sudo cp /etc/pacman.conf /etc/pacman.conf.old
 
-# add herecura repo (vivaldi)
+# add herecura repo (for vivaldi)
 
 sudo sed -i /etc/pacman.conf -e '$a\\n[herecura]\nServer = http://repo.herecura.be/$repo/$arch'
 
