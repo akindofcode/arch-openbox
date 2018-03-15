@@ -7,18 +7,20 @@ set -e
 # 
 #======================================================================================
 
-# copy default openbox configuration to ~/.config
-cp -R /etc/xdg/openbox ~/.config
-
 ###############################################################################################
 
 #obconf is gtk2 and not needed if lxappearance-obconf-gtk3 installed ?? 
+# sudo pacman -S --noconfirm --needed obconf
 
-sudo pacman -S --noconfirm --needed obconf
+sudo pacman -S --noconfirm --needed lightdm lightdm-gtk-greeter lightdm-gtk-greeter-settings
 
-sudo pacman -S --noconfirm --needed lxappearance-gtk3 lxappearance-obconf-gtk3 lightdm-gtk-greeter-settings
+sudo pacman -S --noconfirm --needed lxappearance-gtk3 lxappearance-obconf-gtk3 
 
-packer -S --noconfirm --noedit neofetch
+sudo pacman -S --noconfirm --needed neofetch
+
+sudo pacman -S --noconfirm --needed oblogout
+
+packer -S --noconfirm --noedit openbox-patched
 
 packer -S --noconfirm --noedit obmenu3
 
@@ -28,14 +30,14 @@ packer -S --noconfirm --noedit yad
 
 packer -S --noconfirm --noedit obkey
 
-packer -S --noconfirm --noedit oblogout
-
-packer -S --noconfirm --noedit archlabs-oblogout-themes-git
+# archlabs-oblogout-themes-git is no more
+# packer -S --noconfirm --noedit archlabs-oblogout-themes-git
 
 packer -S --noconfirm --noedit i3lock-color-git
 
+# copy default openbox configuration to ~/.config
+cp -R /etc/xdg/openbox ~/.config
+
 ###############################################################################################
 
-echo "################################################################"
-echo "###################    openbox utils installed  ################"
-echo "################################################################"
+echo "###  openbox utils installed  ###"
