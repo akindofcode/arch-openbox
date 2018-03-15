@@ -11,6 +11,6 @@ set -e
 packer -S --noconfirm --noedit arc-gtk-theme
 
 # packer -S --noconfirm --noedit breeze-snow-cursor-theme	
-# packer -S --noconfirm --noedit default-snow-cursor-theme
+packer -S --noconfirm --noedit breeze-default-cursor-theme
 
 echo "### arc theme installed ###"
