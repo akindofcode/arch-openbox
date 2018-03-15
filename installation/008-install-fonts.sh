@@ -7,14 +7,12 @@ set -e
 # 
 #======================================================================================
 
-sudo pacman -S --noconfirm --needed noto-fonts noto-fonts-emoji
+sudo pacman -S --noconfirm --needed noto-fonts noto-fonts-emoji noto-fonts-extra
 
-packer -S --noconfirm --noedit ttf-font-awesome 
+packer -S --noconfirm --noedit ttf-font-awesome-4
 
 # siji-git
 
 # Terminus
 
-echo "################################################################"
-echo "#####################  fonts installed  ########################"
-echo "################################################################"
+echo "### fonts installed ###"
