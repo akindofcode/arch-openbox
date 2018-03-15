@@ -25,6 +25,4 @@ echo 'autologin-user= chema' | sudo tee --append /etc/lightdm/lightdm.conf > /de
 # echo 'autologin-session=openbox' | sudo tee --append /etc/lightdm /lightdm.conf > /dev/null
 # if commented, defaults to last selected session
 
-echo "################################################################"
-echo "#####################   Auto-login enabled  ####################"
-echo "################################################################"
+echo "### Auto-login enabled ###"
