@@ -7,17 +7,9 @@ set -e
 # 
 #======================================================================================
 
-#check if wget is installed
-sudo pacman -S wget --needed --noconfirm
 
-#----------------------------------------------------------------------------------
 
-#checking if application is already installed or else install with aur helpers
-if pacman -Qi packer &> /dev/null; then
 
-# packer is already installed
-
-else
 
 	sudo pacman -S --noconfirm --needed grep sed bash curl pacman jshon expac
 
@@ -46,4 +38,3 @@ else
 	
 	fi
 
-fi
