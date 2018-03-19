@@ -9,9 +9,9 @@ set -e
 
 #software from 'normal' repositories
 
-packer -S --noconfirm --noedit gradio
+#packer -S --noconfirm --noedit gradio
 
-sudo pacman -S --noconfirm --needed qbittorrent
+#sudo pacman -S --noconfirm --needed qbittorrent
 sudo pacman -S --noconfirm --needed vivaldi vivaldi-ffmpeg-codecs nitrogen sublime-text compton 
 
 # remember to change FORCE WINDOW STYLE in VLC to GTK+
