@@ -1,4 +1,4 @@
-sudo pacman --noconfirm --noedit broadcom-wl-dkms
+sudo pacman --noconfirm --needed broadcom-wl-dkms
 sudo mkinitcpio -p linux
 
-sudo pacman --noconfitm --noedit wireless_tools wpa_supplicant wpa_actiond dialog gnome-keyring
+sudo pacman --noconfirm --needed wireless_tools wpa_supplicant wpa_actiond dialog gnome-keyring
